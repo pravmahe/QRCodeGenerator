@@ -38,7 +38,6 @@ public class QRCode {
 
 		System.out.println("Data read from QR Code: "
 				+ readQRCode(filePath, charset, hintMap));
-
 	}
 
 	public static void createQRCode(String qrCodeData, String filePath,
